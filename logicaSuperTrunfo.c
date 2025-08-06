@@ -62,6 +62,7 @@ int main() {
 
     printf("Pontos Turísticos 2: ");
     scanf("%d", &pontosTuristicos2);
+    while ((ch = getchar()) != '\n' && ch != EOF);
 
     // Cálculo da Densidade Populacional
     densidade1 = (area1 != 0) ? (double)populacao1 / area1 : 0.0;
